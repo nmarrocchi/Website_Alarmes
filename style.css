@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    background-color: aliceblue;
+}
+
+.Banniere {
+    background-color: rgb(42, 90, 102);
+    text-align: center;
+}
+
+.Banniere h1{
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 40px;
+    padding: 2.5% 0%;
+}
+
+.Content{
+    width: 20%;
+    margin: 5% auto;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Content button{
+    color: black;
+    border: solid black 1px;
+    border-radius: 30px;
+    margin: 20%;
+    padding: 5% 10%;
+}
