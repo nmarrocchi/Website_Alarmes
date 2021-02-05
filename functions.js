@@ -14,19 +14,19 @@ function Set_Default_Property(){
     document.getElementById("Desactivate_Apple").setAttribute("disabled", "disabled");
     document.getElementById("Activate_Apple").setAttribute("enabled", "enabled");
 
-    document.getElementById("Desactivate_Bull").style.backgroundColor = "black";
+    document.getElementById("Desactivate_Bull").style.backgroundColor = "#C4C4C4";
     document.getElementById("Activate_Bull").style.backgroundColor = "white";
-        document.getElementById("Desactivate_Bull").style.color = "white";
+        document.getElementById("Desactivate_Bull").style.color = "grey";
         document.getElementById("Activate_Bull").style.color = "black";
 
-    document.getElementById("Desactivate_IBM").style.backgroundColor = "black";
+    document.getElementById("Desactivate_IBM").style.backgroundColor = "#C4C4C4";
     document.getElementById("Activate_IBM").style.backgroundColor = "white";
-        document.getElementById("Desactivate_IBM").style.color = "white";
+        document.getElementById("Desactivate_IBM").style.color = "grey";
         document.getElementById("Activate_IBM").style.color = "black";
 
-    document.getElementById("Desactivate_Apple").style.backgroundColor = "black";
+    document.getElementById("Desactivate_Apple").style.backgroundColor = "#C4C4C4";
     document.getElementById("Activate_Apple").style.backgroundColor = "white";
-        document.getElementById("Desactivate_Apple").style.color = "white";
+        document.getElementById("Desactivate_Apple").style.color = "grey";
         document.getElementById("Activate_Apple").style.color = "black";
 
 }
@@ -46,14 +46,14 @@ function toggleBull(){
 
     if(stateBull == true){
         document.getElementById("Desactivate_Bull").style.backgroundColor = "white";
-        document.getElementById("Activate_Bull").style.backgroundColor = "black";
+        document.getElementById("Activate_Bull").style.backgroundColor = "#C4C4C4";
         document.getElementById("Desactivate_Bull").style.color = "black";
-        document.getElementById("Activate_Bull").style.color = "white";
+        document.getElementById("Activate_Bull").style.color = "grey";
     }
     else if(stateBull == false){
-        document.getElementById("Desactivate_Bull").style.backgroundColor = "black";
+        document.getElementById("Desactivate_Bull").style.backgroundColor = "#C4C4C4";
         document.getElementById("Activate_Bull").style.backgroundColor = "white";
-        document.getElementById("Desactivate_Bull").style.color = "white";
+        document.getElementById("Desactivate_Bull").style.color = "grey";
         document.getElementById("Activate_Bull").style.color = "black";
     }
 
@@ -71,16 +71,16 @@ function toggleIBM(){
 
     if(stateIBM == true){
         document.getElementById("Desactivate_IBM").style.backgroundColor = "white";
-        document.getElementById("Activate_IBM").style.backgroundColor = "black";
+        document.getElementById("Activate_IBM").style.backgroundColor = "#C4C4C4";
         document.getElementById("Desactivate_IBM").style.color = "black";
-        document.getElementById("Activate_IBM").style.color = "white";
+        document.getElementById("Activate_IBM").style.color = "grey";
     }
     else if(stateIBM == false){
-        document.getElementById("Desactivate_IBM").style.backgroundColor = "black";
+        document.getElementById("Desactivate_IBM").style.backgroundColor = "#C4C4C4";
         document.getElementById("Activate_IBM").style.backgroundColor = "white";
-        document.getElementById("Desactivate_IBM").style.color = "white";
+        document.getElementById("Desactivate_IBM").style.color = "grey";
         document.getElementById("Activate_IBM").style.color = "black";
-    }
+    }grey
 
 }
 
@@ -96,14 +96,14 @@ function toggleApple(){
 
     if(stateApple == true){
         document.getElementById("Desactivate_Apple").style.backgroundColor = "white";
-        document.getElementById("Activate_Apple").style.backgroundColor = "black";
-        document.getElementById("Desactivate_Apple").style.color = "black";
-        document.getElementById("Activate_Apple").style.color = "white";
+        document.getElementById("Activate_Apple").style.backgroundColor = "#C4C4C4";
+        document.getElementById("Desactivate_Apple").style.color = "blgreyack";
+        document.getElementById("Activate_Apple").style.color = "grey";
     }
     else if(stateApple == false){
-        document.getElementById("Desactivate_Apple").style.backgroundColor = "black";
+        document.getElementById("Desactivate_Apple").style.backgroundColor = "#C4C4C4";
         document.getElementById("Activate_Apple").style.backgroundColor = "white";
-        document.getElementById("Desactivate_Apple").style.color = "white";
+        document.getElementById("Desactivate_Apple").style.color = "grey";
         document.getElementById("Activate_Apple").style.color = "black";
     }
 

@@ -20,7 +20,7 @@ html{
 }
 
 .Content{
-    width: 20%;
+    width: 40%;
     margin: 5% auto;
     border: solid black 2px;
     border-radius: 20px;
@@ -28,9 +28,27 @@ html{
 }
 
 .Content button{
+    width: 180px;
+    margin: 5% 3%;
     color: black;
-    border: solid black 1px;
+    border: solid grey 2px;
     border-radius: 30px;
-    margin: 20%;
-    padding: 5% 10%;
+    padding: 3% 5%;
+}
+
+.Bull button[type="button"],   .IBM button[type="button"],   .Apple button[type="button"]{
+    display: inline-block;
+  }
+
+  
+  #Activate_Bull, #Activate_IBM, #Activate_Apple {
+      float: right;
+  }
+
+
+  /* -- CSS de tests -- */
+
+.Bull, .IBM, .Apple{
+    width: 70%;
+    margin: auto;
 }
