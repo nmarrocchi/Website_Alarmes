@@ -1,54 +1,67 @@
-*{
-    margin: 0%;
+* {
     padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html{
+html {
     background-color: aliceblue;
 }
 
 .Banniere {
+    position: absolute;
+    width: 100%;
     background-color: rgb(42, 90, 102);
     text-align: center;
 }
 
-.Banniere h1{
+.Banniere h1 {
     color: white;
-    text-shadow: black 2px 2px;
     font-size: 40px;
+    text-shadow: black 2px 2px;
     padding: 2.5% 0%;
+    margin: 0%;
 }
 
-.Content{
-    width: 40%;
-    margin: 5% auto;
+.Content {
+    position: relative;
+    top: 200px;
+    width: 500px;
+    margin: 1% auto;
     border: solid black 2px;
     border-radius: 20px;
     background-color: white;
 }
 
-.Content button{
-    width: 180px;
-    margin: 5% 3%;
+.Content button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin: 20px 23px;
     color: black;
     border: solid grey 2px;
     border-radius: 30px;
-    padding: 3% 5%;
+    display: inline-block;
 }
 
-.Bull button[type="button"],   .IBM button[type="button"],   .Apple button[type="button"]{
-    display: inline-block;
-  }
+.Values_Bull, .Values_IBM, .Values_Apple{
+    border: solid black 1.5px;
+    border-radius: 10px;
+    margin: 5% auto;
+    width: 65%;
+    text-align: center;
+    padding: 1%;
+}
 
-  
-  #Activate_Bull, #Activate_IBM, #Activate_Apple {
-      float: right;
-  }
+.Values_Bull td, .Values_IBM td, .Values_Apple td{
+    width: 100%;
+}
 
-
-  /* -- CSS de tests -- */
-
-.Bull, .IBM, .Apple{
-    width: 70%;
-    margin: auto;
+@media screen and (max-width: 600px) {
+    .Content {
+        width: 400px;
+    }
+    .Content button {
+        width: 150px;
+    }
 }
